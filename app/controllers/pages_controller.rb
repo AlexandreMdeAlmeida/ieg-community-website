@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def Index
-    
+  def index
+    @studies = Study.all
   end
 end
